@@ -1,44 +1,42 @@
-body{
-	font-family: Inconsolata,Menlo,Courier,monospace;
-	font-size:13px;
-	color:#222
+body {
+  font-family: Inconsolata, Menlo, Courier, monospace;
+  font-size: 13px;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 2%;
+  bottom: 25%;
+  right: auto;
+  min-width: 25%;
+  max-height: 50%;
 }
 
-ul{
-	padding: 0;
-	list-style-type: disc;
+ul {
+  padding: 0;
+  list-style-type: disc;
 }
 
-li{
-	list-style: none;
+li {
+  list-style: none;
 }
 
-a{
-	text-decoration: none;
-	border-bottom: 1px solid black;
+a {
+  text-decoration: none;
+  border-bottom: 1px solid black;
 }
 
 a:visited {
-	text-decoration:none;
+  text-decoration: none;
 }
 
-
-h1{
-	font-size: 15px;
+h1 {
+  font-size: 15px;
 }
 
-.focus{
-	margin: auto;
-	position: absolute;
-	top: 0;
-	left: 2%;
-	bottom: 25%;
-	right: auto;
-	min-width: 25%;
-	/* max-width: 50%; */
-	max-height: 50%;
-}
-
-footer ul li{
-	display: inline;
+footer ul li {
+  display: inline;
 }
